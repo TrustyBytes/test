@@ -2,7 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 
 function fetchData(){
-  fetch('http://65.1.92.29:5000/')
+  fetch('172.0.1.214:5000/')
       .then(data => console.log(data))
 }
 
